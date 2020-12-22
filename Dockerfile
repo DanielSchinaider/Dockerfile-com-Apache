@@ -15,7 +15,6 @@ RUN apt-get -q update && \
 
 #RUN apt-get update && DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get install -y tzdata
 # extraído do StackExchange
-# https://serverfault.com/questions/949991/how-to-install-tzdata-on-a-ubuntu-docker-image
 
 COPY intranet/ $webroot
 
